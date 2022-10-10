@@ -8,3 +8,9 @@ Welcome to Altmetric's Badge documentation!
    :caption: Getting started
 
    getting-started
+
+.. toctree::
+   :hidden:
+   :caption: Customizations
+
+   customizations
