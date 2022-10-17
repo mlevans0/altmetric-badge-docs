@@ -13,7 +13,7 @@ If you're an organisation or publisher and would like to use these badges, pleas
 
 Quick start
 ***********
-For researchers and academic repositories, the badges are simple to set up with a two step process:
+For **researchers** and **academic repositories** , the badges are simple to set up with a two step process:
 
 1. Add the following line of code anywhere on an HTML page:
 
@@ -38,7 +38,8 @@ That's it! You'll end up with a badge that looks like this:
     <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/nature.2012.9872"></div>
     <br />
 
-You can customize how the badge :ref:`looks <Badge types>`, add :ref:`popovers <Popover>` or display a breakdown of where an article has been :ref:`mentioned <Details>` by customising the embed. See  for more information :ref:`Customizations <Clicking on a badge>`.
+You can customize how the badge :ref:`looks <Badge types>`, add :ref:`popovers <Popover>` or display a breakdown of where an article has been :ref:`mentioned <Details>` by customising the embed. 
+See :ref:`Customizations <Clicking on a badge>` for more information.
 
 Please see our `full terms and conditions <https://www.altmetric.com/altmetric-free-tools-terms-of-use/>`_ for more information.
 

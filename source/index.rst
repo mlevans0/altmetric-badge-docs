@@ -1,6 +1,6 @@
 Welcome to Altmetric's Badge documentation!
 ###########################################
-The easy-to-embed Altmetric donuts provide a colourful, distinctive and instantly recognisable visualisation to help showcase the wider influence and dissemination of your published content.
+The easy-to-embed Altmetric donuts provide a colourful, distinctive and instantly recognisable visualisation to help showcase the wider influence and dissemination of published content.
 
 Each donut gives your website visitors one-click access to the collated record of online attention for each piece of research, where they can browse all of the original mentions and shares associated with it.
 

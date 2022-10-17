@@ -16,23 +16,25 @@ You can optionally customize how the badge appears by adding ``data`` attributes
     * - Attribute
       - Description
     * - ``data-{{identifier_type}}``
-      - Use this data attribute to tell the embed code which identifier to use. Supported attributes are ``data-doi`` ``data-arxiv-id`` ``data-handle`` ``data-isbn`` ``data-uri`` ``data-pmid``
+      - Use this data attribute to tell the embed code which identifier to use. Supported attributes are ``data-doi`` ``data-arxiv-id`` ``data-handle`` ``data-isbn`` ``data-uri`` ``data-pmid`` ``data-urn`` ``data-nct-id`` ``data-id``
     * - ``data-badge-type``
-      - Use this data attribute to choose a particular style of badge (see :ref:`here <Badge types>` for a list of availalbe options).
+      - Use this data attribute to choose a particular style of badge. Supported types are ``donut`` ``medium-donut`` ``large-donut`` ``1`` ``4`` ``bar`` ``medium-bar`` ``large-bar``. See :ref:`Badge types` for examples.
     * - ``data-badge-popover``
       - Use this data attribute to show a popover when a user hovers over the badge.
     * - ``data-badge-details``
-      - Use this data attribute to show a breakdown of the data next to donut style badges.
+      - Use this data attribute to show a breakdown of attention next to donut style badges.
     * - ``data-no-score``
       - Use this data attribute to specify if a score should be displayed in the center of the donut style badges.
     * - ``data-hide-less-than``
-      - Use this data attribute to specify if the badge should be hidden when the Altmetric score is less than a given number.
+      - Use this data attribute to specify if the badge should be hidden when the Altmetric Attention Score is less than a given number.
     * - ``data-link-target``
-      - Use this data attribute to specify if a user should be brought to a new tab or window when they click on a badge.
+      - Use this data attribute to specify if a user should be taken to a new tab or window when they click on a badge.
     * - ``data-condensed``
       - Use this data attribute to show a condensed version of the badge.
 
-Some XML based journal platforms don't allow ``data`` attributes in front end code. Don't worry! As a fallback you can also specify options as CSS classes.
+.. tip ::
+  
+  Some XML based journal platforms don't allow ``data`` attributes in front end code. Don't worry! As a fallback you can also specify options as CSS classes.
 
 If you run into this problem you can pass options to the donut by adding special CSS classes to the badge element. For example:
 
@@ -63,7 +65,7 @@ Here's an example:
 Popover
 *******
 If you'd like a popover to appear when the user hovers over a badge you can use the ``data-badge-popover`` attribute specifying where you'd like the
-popover to appear: ``left``, ``right``, ``top`` or ``bottom`` .
+popover to appear. Available options are: ``left`` ``right`` ``top`` ``bottom``.
 
 **Popover on left**
 
