@@ -1,10 +1,10 @@
 Welcome to Altmetric's Badge documentation!
 ###########################################
-The easy-to-embed Altmetric donuts provide a colourful, distinctive and instantly recognisable visualisation to help showcase the wider influence and dissemination of published content.
+The easy-to-embed Altmetric donuts provide a colorful, distinctive and instantly recognizable visualization to help showcase the wider influence and dissemination of published content.
 
 Each donut gives your website visitors one-click access to the collated record of online attention for each piece of research, where they can browse all of the original mentions and shares associated with it.
 
-Realise your objectives
+Realize your objectives
    - **Attract new submissions** : Demonstrating your commitment to helping your authors achieve broader impacts and get the attention they deserve for their work helps encourage new and repeat submissions.
    - **Provide feedback for authors** : Because the Altmetric data updates automatically, your teams don't need to spend time crafting complicated reports or sifting through mountains of data to show your authors the reach that your titles has given them.
    - **Showcase evidence of engagement** : The Altmetric badges provide a quick and easy way of showcasing the value of your publishing program to internal and external stakeholders, such as funding institutions and editorial boards.

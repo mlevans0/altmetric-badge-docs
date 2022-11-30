@@ -18,8 +18,7 @@ Altmetric badges can be modified to fit the look and style of your website, so y
 
 .. tip::
 
-  As a reminder: if you want to use the badges on a site that isn't your lab or personal homepage, blog or an institutional repository then you should first contact us at support@altmetric.com
-  so that we can clear your use case. Do not use the badges commercially - on a journal, search engine, in an app etc. - without talking to us first!
+  As a reminder: if you want to use the badges on a site that isn't your lab or personal homepage, blog or an institutional repository then you should first contact us at support@altmetric.com so that we can clear your use case. Do not use the badges commercially - on a journal, search engine, in an app etc. - without talking to us first!
 
 Examples gallery
 ****************
@@ -86,7 +85,7 @@ Click on the badge to see more information about this article.
 
 **Donut style badge using the ISBN 978-3-319-25557-6**
 
-Badges support both 10 and 13 digit ISBNs and do not require normalisation. 
+Badges support both 10 and 13 digit ISBNs and do not require normalization. 
 
  .. raw:: html
 

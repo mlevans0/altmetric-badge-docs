@@ -2,8 +2,7 @@ Clicking on a badge
 *******************
 When clicked, badges lead to a page on altmetric.com that contains more information on the article specified.
 
-By default the information pages only show these first few mentions on each service. We can co-brand the page with your logo and give your visitors a more detailed breakdown of
-the conversations happening around each article - please see contact sales@altmetric.com for details.
+By default the information pages only show these first few mentions on each service. We can co-brand the page with your logo and give your visitors a more detailed breakdown of the conversations happening around each article - please see contact sales@altmetric.com for details.
 
 Data attributes
 ***************
@@ -64,8 +63,7 @@ Here's an example:
 
 Popover
 *******
-If you'd like a popover to appear when the user hovers over a badge you can use the ``data-badge-popover`` attribute specifying where you'd like the
-popover to appear. Available options are: ``left`` ``right`` ``top`` ``bottom``.
+If you'd like a popover to appear when the user hovers over a badge you can use the ``data-badge-popover`` attribute specifying where you'd like the popover to appear. Available options are: ``left`` ``right`` ``top`` ``bottom``.
 
 **Popover on left**
 
