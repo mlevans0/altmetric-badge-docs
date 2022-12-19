@@ -226,3 +226,15 @@ If ``data-hide-no-mentions`` is set then the embed won't display at all if the a
 .. code::
 
   <div class='altmetric-embed' data-hide-no-mentions='true' data-doi='10.1016/S0140-6736(11)61619-x-y'></div>
+
+**Redirect users to a specific customized/branded Details Page**
+
+Setting ``data-template`` to the name of a customized Detail Page's sub-domain will redirect users to that Details Page instead of to the one associated with where the badges are being hosted. In this example, clicking the bade will take you to https://dimensions.altmetric.com/details/101918214 instead of https://www.altmetric.com/details/101918214.
+
+ .. raw:: html
+
+    <div class='altmetric-embed' data-template='dimensions' data-doi='10.1136/bmj.39471.430451.BE'></div>
+
+.. code::
+
+  <div class='altmetric-embed' data-template='dimensions' data-doi='10.1136/bmj.39471.430451.BE'></div>

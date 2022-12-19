@@ -30,6 +30,8 @@ You can optionally customize how the badge appears by adding ``data`` attributes
       - Use this data attribute to specify if a user should be taken to a new tab or window when they click on a badge.
     * - ``data-condensed``
       - Use this data attribute to show a condensed version of the badge.
+    * - ``data-template``
+      - If your organization has multiple customized Details Pages you can use this attribute to ensure that users are redirected to the correct customized version instead of the one based on the domain of where your badges are being hosted. When setting the attribute value, you'll need to pass in the sub-domain name for required Details Page. For example ``data-template='dimensions'``.
 
 .. tip ::
   
