@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clicking on a badge &mdash; Altmetric Badges 1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/custom.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Badge generator" href="badge-playground.html" />
+    <link rel="prev" title="Introduction" href="getting-started.html" /> 
+  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+  <script type='text/javascript' src='https://api.altmetric.com/javascript/components/golden-kestrel/golden-kestrel.js'></script>
+  
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html">
+            <img src="_static/altmetric-logo-white.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html#quick-start">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html#technical-information">Technical information</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Customizations</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Clicking on a badge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#data-attributes">Data attributes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#popover">Popover</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#details">Details</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#badge-types">Badge types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#events">Events</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Playground</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="badge-playground.html">Badge generator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="badge-playground.html#examples-gallery">Examples gallery</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Altmetric Badges</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Clicking on a badge</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/customizations.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="clicking-on-a-badge">
+<h1>Clicking on a badge<a class="headerlink" href="#clicking-on-a-badge" title="Permalink to this heading"></a></h1>
+<p>When clicked, badges lead to a page on altmetric.com that contains more information on the article specified.</p>
+<p>By default the information pages only show these first few mentions on each service. We can co-brand the page with your logo and give your visitors a more detailed breakdown of the conversations happening around each article - please see contact <a class="reference external" href="mailto:sales&#37;&#52;&#48;altmetric&#46;com">sales<span>&#64;</span>altmetric<span>&#46;</span>com</a> for details.</p>
+</section>
+<section id="data-attributes">
+<h1>Data attributes<a class="headerlink" href="#data-attributes" title="Permalink to this heading"></a></h1>
+<p>You can optionally customize how the badge appears by adding <code class="docutils literal notranslate"><span class="pre">data</span></code> attributes:</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">data-{{identifier_type}}</span></code></p></td>
+<td><p>Use this data attribute to tell the embed code which identifier to use. Supported attributes are <code class="docutils literal notranslate"><span class="pre">data-doi</span></code> <code class="docutils literal notranslate"><span class="pre">data-arxiv-id</span></code> <code class="docutils literal notranslate"><span class="pre">data-handle</span></code> <code class="docutils literal notranslate"><span class="pre">data-isbn</span></code> <code class="docutils literal notranslate"><span class="pre">data-uri</span></code> <code class="docutils literal notranslate"><span class="pre">data-pmid</span></code> <code class="docutils literal notranslate"><span class="pre">data-urn</span></code> <code class="docutils literal notranslate"><span class="pre">data-nct-id</span></code> <code class="docutils literal notranslate"><span class="pre">data-id</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">data-badge-type</span></code></p></td>
+<td><p>Use this data attribute to choose a particular style of badge. Supported types are <code class="docutils literal notranslate"><span class="pre">donut</span></code> <code class="docutils literal notranslate"><span class="pre">medium-donut</span></code> <code class="docutils literal notranslate"><span class="pre">large-donut</span></code> <code class="docutils literal notranslate"><span class="pre">1</span></code> <code class="docutils literal notranslate"><span class="pre">4</span></code> <code class="docutils literal notranslate"><span class="pre">bar</span></code> <code class="docutils literal notranslate"><span class="pre">medium-bar</span></code> <code class="docutils literal notranslate"><span class="pre">large-bar</span></code>. See <a class="reference internal" href="#badge-types"><span class="std std-ref">Badge types</span></a> for examples.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">data-badge-popover</span></code></p></td>
+<td><p>Use this data attribute to show a popover when a user hovers over the badge.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">data-badge-details</span></code></p></td>
+<td><p>Use this data attribute to show a breakdown of attention next to donut style badges.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">data-no-score</span></code></p></td>
+<td><p>Use this data attribute to specify if a score should be displayed in the center of the donut style badges.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">data-hide-less-than</span></code></p></td>
+<td><p>Use this data attribute to specify if the badge should be hidden when the Altmetric Attention Score is less than a given number.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">data-link-target</span></code></p></td>
+<td><p>Use this data attribute to specify if a user should be taken to a new tab or window when they click on a badge.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">data-condensed</span></code></p></td>
+<td><p>Use this data attribute to show a condensed version of the badge.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">data-template</span></code></p></td>
+<td><p>If your organization has multiple customized Details Pages you can use this attribute to ensure that users are redirected to the correct customized version instead of the one based on the domain of where your badges are being hosted. When setting the attribute value, you’ll need to pass in the sub-domain name for required Details Page. For example <code class="docutils literal notranslate"><span class="pre">data-template='dimensions'</span></code>.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Some XML based journal platforms don’t allow <code class="docutils literal notranslate"><span class="pre">data</span></code> attributes in front end code. Don’t worry! As a fallback you can also specify options as CSS classes.</p>
+</div>
+<p>If you run into this problem you can pass options to the donut by adding special CSS classes to the badge element. For example:</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Instead of…</p></th>
+<th class="head"><p>Use class…</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">data-doi='xxx'</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">altmetric-doi-xxx</span></code> e.g. <code class="docutils literal notranslate"><span class="pre">altmetric-doi-10.5339/connect.2012.9</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">data-badge-type='donut'</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">altmetric-badge-type-donut</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">data-badge-type='1'</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">altmetric-badge-type-1</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">data-badge-popover='xxx'</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">altmetric-badge-popover-xxx</span></code> e.g. <code class="docutils literal notranslate"><span class="pre">altmetric-badge-popover-left</span></code></p></td>
+</tr>
+</tbody>
+</table>
+<p>Here’s an example:</p>
+<div class='altmetric-embed altmetric-doi-10.5339/connect.2012.9 altmetric-badge-type-donut altmetric-badge-popover-left'></div>
+<br /><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed</span> <span class="pre">altmetric-doi-10.5339/connect.2012.9</span> <span class="pre">altmetric-badge-type-donut</span> <span class="pre">altmetric-badge-popover-left'&gt;&lt;/div&gt;</span></code></p>
+</section>
+<section id="popover">
+<h1>Popover<a class="headerlink" href="#popover" title="Permalink to this heading"></a></h1>
+<p>If you’d like a popover to appear when the user hovers over a badge you can use the <code class="docutils literal notranslate"><span class="pre">data-badge-popover</span></code> attribute specifying where you’d like the popover to appear. Available options are: <code class="docutils literal notranslate"><span class="pre">left</span></code> <code class="docutils literal notranslate"><span class="pre">right</span></code> <code class="docutils literal notranslate"><span class="pre">top</span></code> <code class="docutils literal notranslate"><span class="pre">bottom</span></code>.</p>
+<p><strong>Popover on left</strong></p>
+<p>Hover over the donut below to show a popover to its left.</p>
+<div data-badge-type='donut' class='altmetric-embed' data-badge-popover='left' data-doi='10.1016/S0140-6736(11)61619-x'></div>
+<br /><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">data-badge-type='donut'</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-popover='left'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p>
+<p><strong>Popover below</strong></p>
+<p>Hover over the badge below to show a popover below it.</p>
+<div class='altmetric-embed' data-badge-popover='bottom' data-doi='10.1016/S0140-6736(11)61619-x'></div>
+<br /><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-popover='bottom'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p>
+</section>
+<section id="details">
+<h1>Details<a class="headerlink" href="#details" title="Permalink to this heading"></a></h1>
+<p>You can choose to display details of the attention an article has received to the right of the badge by including the <code class="docutils literal notranslate"><span class="pre">data-badge-details</span></code> attribute.</p>
+<p>The details display works best with the <code class="docutils literal notranslate"><span class="pre">medium-donut</span></code> and <code class="docutils literal notranslate"><span class="pre">large-donut</span></code> badge styles.</p>
+<p><strong>Medium donut</strong></p>
+<div data-badge-type='medium-donut' class='altmetric-embed' data-badge-details='right' data-doi='10.1016/S0140-6736(11)61619-x'></div>
+<br /><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">data-badge-type='medium-donut'</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-details='right'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p>
+</section>
+<section id="badge-types">
+<h1>Badge types<a class="headerlink" href="#badge-types" title="Permalink to this heading"></a></h1>
+<p>You can specify the style of badge you’d like to embed with a <code class="docutils literal notranslate"><span class="pre">data-badge-type</span></code> attribute. The badge types available are listed below with examples.</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 60%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Badge type</p></th>
+<th class="head"><p>Example</p></th>
+<th class="head"><p>Code</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Default</strong></p></td>
+<td><div class='altmetric-embed' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">donut</span></code></p></td>
+<td><div class='altmetric-embed' data-badge-type='donut' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-type='donut'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">medium-donut</span></code></p></td>
+<td><div class='altmetric-embed' data-badge-type='medium-donut' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-type='medium-donut'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">large-donut</span></code></p></td>
+<td><div class='altmetric-embed' data-badge-type='large-donut' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-type='large-donut'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
+<td><div class='altmetric-embed' data-badge-type='1' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-type='1'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">4</span></code></p></td>
+<td><div class='altmetric-embed' data-badge-type='4' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-type='4'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">bar</span></code></p></td>
+<td><div class='altmetric-embed' data-badge-type='bar' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-type='bar'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">medium-bar</span></code></p></td>
+<td><div class='altmetric-embed' data-badge-type='medium-bar' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-type='medium-bar'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">large-bar</span></code></p></td>
+<td><div class='altmetric-embed' data-badge-type='large-bar' data-doi='10.1016/S0140-6736(11)61619-x'></div></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">class='altmetric-embed'</span> <span class="pre">data-badge-type='large-bar'</span> <span class="pre">data-doi='10.1016/S0140-6736(11)61619-x'&gt;&lt;/div&gt;</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="events">
+<h1>Events<a class="headerlink" href="#events" title="Permalink to this heading"></a></h1>
+<p>There are two custom JavaScript events that can be fired by the badge:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">altmetric:show</span></code> is fired when a badge is shown;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">altmetric:hide</span></code> is fired when a badge is hidden (e.g. if its score is 0 and the data-no-score attribute is set).</p></li>
+</ul>
+<p>These events are attached to the <code class="docutils literal notranslate"><span class="pre">.altmetric-embed</span></code> container, so it is possible to attach event listeners and act on them.</p>
+<p>For example: using jQuery, one can show an alert whenever a badge is shown with the following code:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$(function () {
+    $(&#39;div.altmetric-embed&#39;).on(&#39;altmetric:show&#39;, function () {
+        alert(&#39;Altmetric badge shown!&#39;);
+    });
+});
+</pre></div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="getting-started.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="badge-playground.html" class="btn btn-neutral float-right" title="Badge generator" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Altmetric LLC.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>  
+
+  <style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background: #1a3d74;
+    }
+  </style>
+  <script>golden_kestrel.core.init();</script>
+
+
+</body>
+</html>
